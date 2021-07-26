@@ -1,0 +1,131 @@
+body{
+  background-color:#060d17;
+font-family: 'Ubuntu', sans-serif;
+}
+
+img{
+margin-top: 1em;
+width: 100%;
+}
+
+
+.row{
+margin-left: 4.5em;
+margin-bottom: 2em;
+
+}
+
+
+
+
+    body{
+
+
+      margin: 0;
+    }
+
+    p{
+      margin-left: 7.5em;
+    }
+    h3{
+      margin-left: 5em;
+    }
+    h4{
+      margin-top: 3em;
+      margin-left: 7.5em;
+      margin-bottom: 0;
+      font-size: 1.2em;
+    }
+    .bottom{
+      color: white;
+    }
+
+
+
+  .col-lg-3{
+    height: 12em;
+    width: 12em;
+    padding: .6em;
+  }
+
+  img.myrec{
+    height: 100%;
+    width: 100%;
+    border-radius: .5em;
+
+
+  }
+
+  img.myrec:hover{
+      border: 3px solid;
+    border-color: #E4FBFF;
+    opacity: 70%;
+  }
+
+  .navbar-brand{
+    font-size: 2em;
+    margin-left: 2em;
+    font-weight: 900;
+
+  }
+
+  .search-pill{
+    width: 20em;
+    border-radius: 1em;
+    background-color: #060d17;
+  }
+
+  .search-button{
+    border-radius: 1em;
+    margin-right: 1em;
+  }
+
+  .nav-item{
+    margin: 0 .5em 0;
+  }
+
+#logo{
+  height: 2.2em;
+  width: 10em;
+  margin-top: 0;
+}
+
+.carousel-item{
+  padding: 0 5% 0;
+}
+
+.list{
+  margin-left: 7.5em;
+}
+
+#carouselExampleControls{
+  margin-bottom: 2em;
+}
+
+
+.mvrc h6{
+  margin-left: 0;
+  margin-top: 1em;
+  font-size: .9em;
+
+}
+
+.mvrc{
+  padding-bottom: 2em;
+}
+
+
+.btn-each{
+  margin: 0 1em 0;
+  border-radius: 1em;
+}
+ .btn-grp{
+   padding-left: 7.5em;
+   padding-top: 1.5em;
+ }
+
+ .aa{
+   margin-left: 8em;
+   margin-top: 1em;
+
+ }
