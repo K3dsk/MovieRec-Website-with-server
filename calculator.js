@@ -7,15 +7,11 @@ app.use(express.static("public"));
 
 app.get("/",function(req,res){
 
- https.get("https://api.coindesk.com/v1/bpi/currentprice.json",function(response){
-   response.on("data",function(data){
-     const bitcoin = JSON.parse(data);
 
-     const rate= bitcoin.bpi.USD.rate;
-     res.sendFile("/C:/Users/vasu_/Desktop/myServer/index.html");
+     res.sendFile("C:/Users/vasu_/Desktop/myServer/index.html");
 
-   });
- });
+
+
 
 
 });
@@ -27,6 +23,6 @@ app.post("/",function(req,res){
 
 
 
-app.listen(process.env.PORT || 3000,function(){
+app.listen( process.env.PORT || 3000,function(){
   console.log("server started");
 });

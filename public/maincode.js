@@ -12,11 +12,11 @@ $(".btn-each").on("click",function(){
     var title=this.innerText;
     var noOfTitle=document.querySelectorAll(".genre").length;
     for(var j=0;j<noOfTitle;j++){
-      document.querySelectorAll(".genre")[j].src="public/"+title+"/"+(j+1)+".jpg";
+      document.querySelectorAll(".genre")[j].src=title+"/"+(j+1)+".jpg";
     }
   })
 
 function playSound(){
-  var sound= new Audio("public/sounds/2.wav");
+  var sound= new Audio("sounds/2.wav");
   sound.play();
 }
