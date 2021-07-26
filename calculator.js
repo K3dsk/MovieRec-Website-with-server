@@ -12,7 +12,7 @@ app.get("/",function(req,res){
      const bitcoin = JSON.parse(data);
 
      const rate= bitcoin.bpi.USD.rate;
-     res.sendFile("index.html");
+     res.sendFile("/c/Users/vasu_/Desktop/myServer/index.html");
 
    });
  });
