@@ -8,7 +8,7 @@ app.use(express.static("public"));
 app.get("/",function(req,res){
 
 
-     res.sendFile("C:/Users/vasu_/Desktop/myServer/index.html");
+     res.sendFile(__dirname+"index.html");
 
 
 
