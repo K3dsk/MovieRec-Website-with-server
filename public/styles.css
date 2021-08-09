@@ -1,131 +1,136 @@
-body{
-  background-color:#060d17;
-font-family: 'Ubuntu', sans-serif;
+body {
+  background-color: #060d17;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
 }
 
-img{
-margin-top: 1em;
-width: 100%;
+img {
+  margin-top: 1em;
+  width: 100%;
 }
 
-
-.row{
-margin-left: 4.5em;
-margin-bottom: 2em;
-
+.row {
+  margin-left: 4.5em;
+  margin-bottom: 2em;
 }
 
+body {
+  margin: 0;
+}
 
+p {
+  margin-left: 7.5em;
+}
 
+h3 {
+  margin-left: 5em;
+}
 
-    body{
+h4 {
+  margin-top: 3em;
+  margin-left: 7.5em;
+  margin-bottom: 0;
+  font-size: 1.2em;
+}
 
+.bottom {
+  color: white;
+}
 
-      margin: 0;
-    }
+.col-lg-3 {
+  height: 12em;
+  width: 12em;
+  padding: .6em;
+}
 
-    p{
-      margin-left: 7.5em;
-    }
-    h3{
-      margin-left: 5em;
-    }
-    h4{
-      margin-top: 3em;
-      margin-left: 7.5em;
-      margin-bottom: 0;
-      font-size: 1.2em;
-    }
-    .bottom{
-      color: white;
-    }
+img.myrec {
+  height: 100%;
+  width: 100%;
+  border-radius: .5em;
+}
 
+img.myrec:hover {
+  border: 3px solid;
+  border-color: #E4FBFF;
+  opacity: 70%;
+}
 
+.navbar-brand {
+  font-size: 2em;
+  margin-left: 2em;
+  font-weight: 900;
+}
 
-  .col-lg-3{
-    height: 12em;
-    width: 12em;
-    padding: .6em;
-  }
+.search-pill {
+  width: 20em;
+  border-radius: 1em;
+  background-color: #060d17;
+}
 
-  img.myrec{
-    height: 100%;
-    width: 100%;
-    border-radius: .5em;
+.search-button {
+  border-radius: 1em;
+  margin-right: 1em;
+}
 
+.nav-item {
+  margin: 0 .5em 0;
+}
 
-  }
-
-  img.myrec:hover{
-      border: 3px solid;
-    border-color: #E4FBFF;
-    opacity: 70%;
-  }
-
-  .navbar-brand{
-    font-size: 2em;
-    margin-left: 2em;
-    font-weight: 900;
-
-  }
-
-  .search-pill{
-    width: 20em;
-    border-radius: 1em;
-    background-color: #060d17;
-  }
-
-  .search-button{
-    border-radius: 1em;
-    margin-right: 1em;
-  }
-
-  .nav-item{
-    margin: 0 .5em 0;
-  }
-
-#logo{
+#logo {
   height: 2.2em;
   width: 10em;
   margin-top: 0;
 }
 
-.carousel-item{
+.carousel-item {
   padding: 0 5% 0;
 }
 
-.list{
+.list {
   margin-left: 7.5em;
 }
 
-#carouselExampleControls{
+#carouselExampleControls {
   margin-bottom: 2em;
 }
 
-
-.mvrc h6{
+.mvrc h6 {
   margin-left: 0;
   margin-top: 1em;
   font-size: .9em;
-
 }
 
-.mvrc{
+.mvrc {
   padding-bottom: 2em;
 }
 
-
-.btn-each{
+.btn-each {
   margin: 0 1em 0;
   border-radius: 1em;
 }
- .btn-grp{
-   padding-left: 7.5em;
-   padding-top: 1.5em;
- }
 
- .aa{
-   margin-left: 8em;
-   margin-top: 1em;
+.btn-grp {
+  padding-left: 7.5em;
+  padding-top: 1.5em;
+}
 
- }
+.aa {
+  margin-left: 8em;
+  margin-top: 1em;
+}
+
+img.searchRec{
+  height: 12em;
+  width: 12em;
+  padding: .6em;
+  float: left;
+  border-radius: 1.5em;
+}
+
+.col-lg-6 h3{
+  font-size: 1em;
+  padding-top: 2em;
+}
+.col-lg-6{
+  padding: 1.5em 2em 1.5em;
+}

@@ -1,0 +1,15 @@
+<%- include("header") -%>
+<div class="row">
+
+<% for(let i=0;i<list.length;i++){ %>
+<div class="col-lg-6">
+  <img src="https://image.tmdb.org/t/p/w500/<%=list[i].poster_path %>" class="searchRec" alt="">
+<h3 class="top"><b>Title :</b> <%= list[i].original_title%> </h3>
+<!-- <h3><b>Overview :</b> <%= list[i].overview %></h3> -->
+<h3><b>Language :</b> <%= list[i].original_language %></h3>
+<h3><b>Release date :</b> <%= list[i].release_date %></h3>
+</div>
+<%}%>
+
+</div>
+<%- include("footer") -%>
